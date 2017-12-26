@@ -1,0 +1,116 @@
+body{
+    /* background-image: url("../img/pic/wall.jpg"); */
+    /* background-repeat: repeat-x space; */
+    background:#ddd;
+}
+
+.toolbar-box{
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    width: 100%;
+    position:fixed; 
+    top:0; 
+    left: 0;
+    z-index:20
+} 
+
+.toolbar{
+    height: 50px;
+}
+
+.toolbar .left-nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    float: left;
+}
+
+.toolbar .right-nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    float: right;
+}
+
+.toolbar ul li{
+    display: inline-block;
+}
+
+.toolbar ul li:hover{
+    border-radius: 25px;
+    background:rgba(0, 0,0, 0.2);
+}
+
+.toolbar ul li a{
+    color: white;
+    line-height: 50px;
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.toolbar ul li a .homeicon{
+   float: left;
+   width: 20px;
+   height: 20px;
+   margin: auto 0;
+   margin-top: 15px;
+}
+
+.headicon{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: auto 0;
+    transition: all 0.5s;
+}
+
+.headicon:hover{
+    transform: translateX(0px) translateY(30px) scale(3);
+}
+
+.view{
+    margin-top:90px;
+    margin-bottom: 40px;
+}
+
+.grid-sizer,
+.grid-item{
+    width: 20%;
+}
+
+.grid-item{
+    padding: 10px;
+    float: left;
+}
+
+.grid-item img{
+    display: block;
+    max-width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.grid-item-wrapper{
+    background: white;
+    border-radius: 6px;
+    transition: all 0.2s;
+}
+
+.grid-item-wrapper:hover{  
+    transform: scale(1.02)
+ }
+
+.grid-item-wrapper p{
+    margin: 0 0;
+    padding: 5px;
+    color: gray;
+}
+
